@@ -1,0 +1,47 @@
+# macOS
+.DS_Store
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Node / Expo
+node_modules/
+.expo/
+.expo-shared/
+dist/
+web-build/
+
+# React Native / Android
+android/.gradle/
+android/build/
+android/app/build/
+vehicle-control/android/.gradle/
+vehicle-control/android/build/
+vehicle-control/android/app/build/
+
+# React Native / iOS, if generated later
+ios/Pods/
+ios/build/
+vehicle-control/ios/Pods/
+vehicle-control/ios/build/
+
+# Native/editor metadata
+*.iml
+.idea/
+.vscode/
+
+# Arduino temporary build output
+build/
+*.hex
+*.elf
+*.bin
+*.eep
