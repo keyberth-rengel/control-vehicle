@@ -7,10 +7,10 @@ const byte BLUETOOTH_TX_PIN = 11;  // Arduino TX sends to HC-05 RXD
 SoftwareSerial bluetooth(BLUETOOTH_RX_PIN, BLUETOOTH_TX_PIN);
 
 // L298N motor driver pins
-const byte LEFT_MOTOR_INPUT_1 = 2;
-const byte LEFT_MOTOR_INPUT_2 = 3;
-const byte RIGHT_MOTOR_INPUT_1 = 4;
-const byte RIGHT_MOTOR_INPUT_2 = 7;
+const byte LEFT_MOTOR_INPUT_1 = 4;
+const byte LEFT_MOTOR_INPUT_2 = 7;
+const byte RIGHT_MOTOR_INPUT_1 = 2;
+const byte RIGHT_MOTOR_INPUT_2 = 3;
 
 // Change one of these to false if that wheel is wired backward.
 const bool LEFT_MOTOR_FORWARD_USES_INPUT_1 = true;
